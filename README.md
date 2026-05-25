@@ -144,7 +144,7 @@ The project is deployed using Vercel.
 
 ## Live URL
 
-(Add deployed Vercel URL here)
+https://prompt-spend.vercel.app/
 
 ---
 
