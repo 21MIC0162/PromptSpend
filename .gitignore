@@ -1,44 +1,33 @@
 # dependencies
-node_modules
+node_modules/
+.pnp
+.pnp.js
+
+# testing
+coverage/
 
 # next.js
-.next
-out
+.next/
+out/
 
 # production
-build
+build/
 
-# logs
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# environment variables
+# local env files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env*.local
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-
-# macOS
-.DS_Store
-
-# vscode
-.vscode
-
-# coverage
-coverage
-
-# testing
-playwright-report
-test-results
-
-# misc
-*.pem
